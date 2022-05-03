@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+
+/* FIM DAS FOMRATAÇÕES GERAIS */
+
+div.links-centro{
+    margin: 15px;
+    text-align: center;
+}
+
+a.p-ativa{
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    margin: 5px 15px;
+}
+
+a.link-top{
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px;
+}
+
+/* FIM DAS FORMATAÇÕES DE LINKS */
+
+header{
+    background-image: url(../000-IMAGENS/bolao-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.logo{
+    height: 100px;
+}
+
+nav{
+    text-align: center;
+}
