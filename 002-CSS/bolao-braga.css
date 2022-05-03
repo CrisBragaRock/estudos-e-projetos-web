@@ -8,6 +8,10 @@ body{
     background-color: black;
 }
 
+h1, h2, h3{
+    text-align: center;
+}
+
 /* FIM DAS FOMRATAÇÕES GERAIS */
 
 div.links-centro{
@@ -35,17 +39,25 @@ a.link-top{
 
 /* FIM DAS FORMATAÇÕES DE LINKS */
 
-header{
-    background-image: url(../000-IMAGENS/bolao-logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 div.logo{
-    height: 100px;
+    height: 150px;    
+    background-image: url(../000-IMAGENS/trevo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top middle;
 }
 
 nav{
     text-align: center;
+}
+
+/* FIM DAS FORMATAÇÕES DO CABEÇALHO*/
+
+main{
+    width: 80%;
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    margin: 25px auto;
+
 }
