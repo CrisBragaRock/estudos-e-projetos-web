@@ -40,11 +40,7 @@ a.link-top{
 /* FIM DAS FORMATAÇÕES DE LINKS */
 
 div.logo{
-    height: 150px;    
-    background-image: url(../000-IMAGENS/trevo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top middle;
+    height: 150px;
 }
 
 nav{
